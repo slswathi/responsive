@@ -1,0 +1,251 @@
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial,sans-serif;
+    font-weight: 300;
+    background-color: #E0DEDA;
+}
+
+header {    
+     background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('../img/pencil-header-xs.jpg') ;
+     max-width: 100%; 
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     color: white;
+     min-height: 500px;
+     padding-bottom: 2em;
+     margin: 0;
+     background-position: center;
+     
+}
+
+header h1{
+    font-size: 6em;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-weight: 200;
+    font-family:'Source Sans Pro';
+          margin: 0;
+          
+}
+header p{
+    font-size: 1.5em;
+    width: 50%;
+     font-weight: 100;
+    margin: 0;
+}
+
+
+.btn-primary{
+    background: none;
+    border-color: white;
+    color:white;
+    border-radius: 0;
+    border-width: 3px;
+    vertical-align: center;
+    
+}
+
+.btn-primary:hover, .btn-primary:active{
+    background-color: white ; 
+    color: black;
+    border-color: white;
+}
+
+.btn-primary a, .btn-default a{
+    color: white;
+}
+    
+   .gridbg .col-md-6, .gridbg .col-lg-3{
+    background-color: #E0DEDA;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 0;
+    vertical-align: center;
+    text-align: center;
+    min-height: 397px;
+    color: #5A3822;
+}
+  
+
+svg{
+    max-height: 100px;
+       vertical-align: center;
+       fill: #5A3822;
+}
+
+main h1, h2{
+          font-family: 'Source Sans Pro';
+          margin: 0;
+        font-weight: 200;
+           
+}
+
+ .fa-registered{
+     
+    vertical-align: center;
+    text-align: center;
+       
+ }
+
+
+.panda .col-md-6 img{
+    height:  430px;
+    width: 100%;
+    
+}
+
+.panda .col-md-6{
+    background-color: #F1F2F5;
+    height: 430px;    
+}
+
+.panda h2{
+    font-size: 3em;
+    padding: 0;
+}
+
+.panda p{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+
+
+.btn-default{
+    background: #A45F09;
+    border-color: #A45F09;
+    color:white;
+        border-radius: 0;
+    border-width: 3px;
+    vertical-align: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.adver{
+    background-image: url('../img/colors-background-xs.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+
+.adver p{
+    font-size: 3em;
+    width: 50%;
+    font-weight: 100;
+}
+
+.footer{
+    background-color: #F1F2F5;
+    border-top-width: 3px;
+    border-top-color: #583820;
+    border-top-style: solid;
+   font-size: .8em;
+   padding-top: 2em;
+   padding-bottom: 2em;
+}
+
+.aligni i{
+    float: left;
+    margin: 2px;
+}
+
+
+
+@media(min-width: 768px) {
+  body {
+      font-size: 20px;
+  }  
+    
+header {
+  background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(../img/pencil-header-sm.jpg);
+    max-width: 100%;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     color: white;
+     min-height: 500px;
+     padding-bottom: 4em;
+     margin: 0;
+    }
+ 
+.panda h2{
+    font-size: 4em;
+    padding: 0;
+}
+ header p{
+    font-size: 2em;
+    font-weight: 100;
+    margin: 0;
+ }
+ .adver{
+    background-image: url('../img/colors-background-sm.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+ .adver p{
+    font-size: 4em;
+    width: 50%;
+      }
+   .aligni i{
+          float: right;
+          margin: 2px;
+      }
+}
+@media (min-width: 992px) {
+    
+    header {    
+     background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('../img/pencil-header-md.jpg') center center;
+     max-width: 100%;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     color: white;
+     min-height: 500px;
+     padding-bottom: 4em;
+     margin: 0;
+}
+    body {
+        font-size: 20px;
+    }
+    
+  .adver{
+    background-image: url('../img/colors-background-md.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+   
+}
+
+@media (min-width: 1200px){
+ 
+  header {    
+     background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('../img/pencil-header-lg.jpg') center center;
+     max-width: 100%;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     color: white;
+     min-height: 500px;
+     padding-bottom: 4em;
+     margin: 0;
+}
+
+ body{
+     font-size: 20px;
+ }
+ 
+ .adver{
+    background-image: url('../img/colors-background-lg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+}
